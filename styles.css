@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+    background: linear-gradient(25deg, #DADAFB, #5d1a78);
+}
+
+.header-content, .game-field-block, .reset-text {
+    color: #DADAFB;
+    text-align: center;
+    justify-content: center;
+}
+
+.game-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.game-field-block {
+    width: 150px;
+    height: 150px;
+
+    border: groove 2px #DADAFB;
+
+    font-size: 100px;
+    color: #DADAFB;
+}
+
+.btn-reset {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.reset {
+    background-color: #764E96;
+    width: 150px;
+    height: 50px;
+    border: solid 2px #DADAFB;
+    border-radius: 50%;
+}
+
